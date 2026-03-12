@@ -132,7 +132,8 @@ export default function ImageConfigPage() {
             ) : filteredCameras.map((cam) => {
               const isSel = selected === cam.id;
               return (
-                <tr key={cam.id} className={`m-table__row ${isSel ? "m-table__row--selected" : ""}`}
+                <tr key={cam.id}
+                  className={`m-table__row ${isSel ? "m-table__row--selected" : ""}`}
                   onClick={() => handleSelectCamera(cam.id)}>
                   <td className="m-table__primary">{cam.name}</td>
                   <td>{cam.channel}</td>
@@ -297,4 +298,3 @@ export default function ImageConfigPage() {
     </div>
   );
 }
-

@@ -26,7 +26,8 @@
 .ic-live-tag {
   font-size: 9px; font-weight: 700; letter-spacing: 0.1em;
   color: var(--red); background: rgba(255,77,106,0.12);
-  border: 1px solid rgba(255,77,106,0.3); border-radius: 3px; padding: 1px 5px; margin-left: 2px;
+  border: 1px solid rgba(255,77,106,0.3); border-radius: 3px;
+  padding: 1px 5px; margin-left: 2px;
 }
 
 .ic-preview__video-wrap {
